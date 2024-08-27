@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff; /* Color de fondo claro */
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 40px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #0b7045; /* Verde oscuro, en línea con el logo */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-links li a:hover {
+    color: #0e9859; /* Verde más brillante al pasar el cursor */
+}
+
+.logo {
+    width: 80px; /* Ajusta el tamaño inicial del logo */
+    transition: transform 0.3s ease-in-out; /* Suaviza el efecto de zoom */
+}
+
+.logo:hover { /* Efecto de zoom al pasar el cursor */
+    transform: scale(1.2); /* Aumenta el tamaño del logo al 120% */
+}
+
+/* HERO SECTION CON IMAGEN DE FONDO*/
+.hero {
+    background-image: url('../img/imgDos.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+}
+  
+.hero h1 {
+    font-size: 48px;
+}
+  
+.hero p {
+    font-size: 24px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+  
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0b7045;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* HERO SECTION CON IMG IZQ Y TXT DER*/
+.hero-two {
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+}
+  
+.hero-image {
+    flex: 1;
+  }
+  
+.hero-image img {
+    max-width: 100%;
+}
+  
+.hero-text {
+    flex: 1;
+    padding: 20px;
+}
+  
+.hero-text h1 {
+    font-size: 36px;
+}
+  
+.hero-text p {
+    font-size: 20px;
+}
+  
+.cta-button-two {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0b7045;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* HERO SECTION CON VIDEO DE FONDO */
+.hero-video-back {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+  
+.hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+  
+.hero-content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+  
+.hero-content h1 {
+    font-size: 48px;
+}
+  
+.hero-content p {
+    font-size: 24px;
+}
+  
+.cta-button-video {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0b7045;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+  
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}  
+  
