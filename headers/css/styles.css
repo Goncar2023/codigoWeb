@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER UNO */
+.header-simple {
+    background-color: #4CAF50;
+    color: white; 
+    text-align: center; /* Centrar el texto */
+    padding: 10px; /* Espaciado interno */
+    font-family: 'Arial', sans-serif; /* Tipo de letra */
+}
+
+/* HEADER DOS */
+.header-background {
+    background-image: url('../img/imgEjemplo.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Cubrir todo el espacio disponible */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 4px #000000; /* Sombra en el texto */
+}
+
+/* HEADER TRES */
+.header-nav {
+    background-color: #333; /* Color de fondo oscuro */
+    color: white;
+    padding: 10px 20px;
+    font-family: 'Verdana', sans-serif;
+}
+
+.header-nav h1 {
+    margin: 0;
+    display: inline-block;
+}
+
+.header-nav nav {
+    float: right;
+}
+
+.header-nav ul {
+    list-style-type: none; /* Eliminar los puntos de la lista */
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav ul li {
+    display: inline; /* Mostrar los elementos de la lista en línea */
+    margin-left: 20px;
+}
+
+.header-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-nav ul li a:hover {
+    text-decoration: underline; /* Subrayar en hover */
+}
+
+/* HEADER CUATRO */
+.header-two-rows {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilo para la franja superior */
+.top-bar {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; /* Separar elementos */
+    align-items: center;
+    font-size: 14px;
+}
+
+.top-bar p {
+    margin: 0;
+}
+
+.top-bar .social-icons a {
+    margin-left: 15px; /* Espacio entre íconos */
+}
+
+.top-bar .social-icons img {
+    width: 20px; /* Tamaño de los íconos */
+    height: 20px;
+}
+
+/* Estilo para la fila principal */
+.main-header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Separar logo y menú */
+    align-items: center;
+}
+
+.main-header .logo img {
+    height: 80px; /* Tamaño del logo */
+}
+
+.main-header .logo img {
+    height: 80px; /* Tamaño del logo */
+    transition: transform 0.3s ease-in-out;
+}
+
+.main-header .logo img:hover {
+    transform: scale(1.2);
+}
+
+.main-header nav ul {
+    list-style-type: none; /* Eliminar puntos de lista */
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-header nav ul li {
+    margin-left: 20px;
+}
+
+.main-header nav ul li a {
+    text-decoration: none;
+    color: #333; /* Color del texto */
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.main-header nav ul li a:hover {
+    color: #1E90FF; /* Color en hover */
+    border-bottom: 2px solid #1E90FF; /* Línea inferior en hover */
+}
