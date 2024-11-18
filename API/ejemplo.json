@@ -1,0 +1,24 @@
+[
+  {
+    "nombre": "Juan",
+    "edad": 20,
+    "esEstudiante": false,
+    "direccion": {
+        "calle": "Av. Fco Aguirre #580",
+        "ciudad": "La Serena"
+    },
+    "asignaturas": ["Programación", "Base de datos", "Redes"],
+    "telefono": null
+  },
+  {
+    "nombre": "María",
+    "edad": 30,
+    "esEstudiante": false,
+    "direccion": {
+        "calle": "Las Rosas #001",
+        "ciudad": "La Serena"
+    },
+    "asignaturas": ["Programación", "Base de datos", "Redes"],
+    "telefono": null
+  }
+]
